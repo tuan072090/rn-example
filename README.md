@@ -10,7 +10,9 @@
 
 
 ##  How to run
-- pull the project, then `yarn install`, then `cd ios && pod install`, then `yarn ios`
+- Pull the project
+- Follow [these steps](https://rnfirebase.io/#2-android-setup) to create firebase credentials for android and iOS
+- `yarn install`, then `cd ios && pod install`, then `yarn ios`
 
 
 
