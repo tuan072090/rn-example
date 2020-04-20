@@ -63,6 +63,7 @@
 		78188361C2ED94BBD3EA57BF /* libPods-RNSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1C1050102AA6B45648F599 /* Pods-RNSample-RNSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNSample-RNSampleTests.release.xcconfig"; path = "Target Support Files/Pods-RNSample-RNSampleTests/Pods-RNSample-RNSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		AB3AEE082449AFE600B58485 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "RNSample/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ABC15818244D9FA50001367B /* RNSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = RNSample.entitlements; path = RNSample/RNSample.entitlements; sourceTree = "<group>"; };
 		BB73B5F86AB8FEA20FF36047 /* Pods-RNSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNSample.debug.xcconfig"; path = "Target Support Files/Pods-RNSample/Pods-RNSample.debug.xcconfig"; sourceTree = "<group>"; };
 		D0C5F0D4A888D680F87BDD6C /* Pods-RNSample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNSample-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-RNSample-tvOS/Pods-RNSample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		DC00622DA71F362AE7EA5F52 /* Pods-RNSample-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNSample-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-RNSample-tvOSTests/Pods-RNSample-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +128,7 @@
 		13B07FAE1A68108700A75B9A /* RNSample */ = {
 			isa = PBXGroup;
 			children = (
+				ABC15818244D9FA50001367B /* RNSample.entitlements */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -655,6 +657,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = RNSample/RNSample.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VLU276PG33;
 				ENABLE_BITCODE = NO;
@@ -683,6 +686,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = RNSample/RNSample.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VLU276PG33;
 				INFOPLIST_FILE = RNSample/Info.plist;

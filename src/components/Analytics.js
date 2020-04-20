@@ -19,14 +19,15 @@ const Analytics = (props) => {
         <View style={analyticStyles.wrap}>
             <Text style={{...analyticStyles.item,...analyticStyles.text}}>Firebase analytic "TestEVENT"</Text>
 
-            <Switch
-                style={analyticStyles.item}
-                trackColor={{ false: "#767577", true: "#6E91FF" }}
-                thumbColor={"#5970ff"}
-                ios_backgroundColor="#3e3e3e"
-                onValueChange={() => {}}
-                value={true}
-            />
+            <View style={analyticStyles.item}>
+                <Switch
+                    trackColor={{ false: "#767577", true: "#6E91FF" }}
+                    thumbColor={"#5970ff"}
+                    ios_backgroundColor="#3e3e3e"
+                    onValueChange={() => {}}
+                    value={true}
+                />
+            </View>
         </View>
     )
 };
