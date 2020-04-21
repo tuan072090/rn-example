@@ -3,10 +3,8 @@
 ##  Included
 - React navigation
 - Firebase analytics
-- Firebase authen
 - Firebase cloud messaging
 - Firebase crashlytics
-- Firebase dynamic links
 
 
 ##  How to run

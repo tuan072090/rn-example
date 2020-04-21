@@ -18,7 +18,7 @@ const App: () => React$Node = () => {
 
     useEffect(() => {
         const unsubscribe = messaging().onMessage(async remoteMessage => {
-            console.log("message when app opening...", remoteMessage)
+            console.warn("message when app opening...", remoteMessage)
         });
 
         messaging().onNotificationOpenedApp(remoteMessage => {

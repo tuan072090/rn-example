@@ -27,7 +27,7 @@ const CloudMessaging = (props) => {
         console.log("deviceRemote.......", deviceRemote);
 
         const token = await messaging().getToken();
-        console.log("token.......", token);
+        console.log("fcm token.......", token);
 
     }
 

@@ -20,6 +20,8 @@
 		8219A123FE11C4483ABC89D5 /* libPods-RNSample-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E2722ACA939A95C943AE7A /* libPods-RNSample-tvOSTests.a */; };
 		83D7BA9F69CCBA3F00D4CB8B /* libPods-RNSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78188361C2ED94BBD3EA57BF /* libPods-RNSample.a */; };
 		AB3AEE092449AFE600B58485 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB3AEE082449AFE600B58485 /* GoogleService-Info.plist */; };
+		ABA02677244EF47100092DE3 /* me-too.m4r in Resources */ = {isa = PBXBuildFile; fileRef = ABA02676244EF47100092DE3 /* me-too.m4r */; };
+		ABA02679244EF6C500092DE3 /* surprise-on-a-spring.m4r in Resources */ = {isa = PBXBuildFile; fileRef = ABA02678244EF6C500092DE3 /* surprise-on-a-spring.m4r */; };
 		F0F5DB5F101552B8441566F9 /* libPods-RNSample-RNSampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5C5C946C9ABA7000A8650E /* libPods-RNSample-RNSampleTests.a */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +65,8 @@
 		78188361C2ED94BBD3EA57BF /* libPods-RNSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1C1050102AA6B45648F599 /* Pods-RNSample-RNSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNSample-RNSampleTests.release.xcconfig"; path = "Target Support Files/Pods-RNSample-RNSampleTests/Pods-RNSample-RNSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		AB3AEE082449AFE600B58485 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "RNSample/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ABA02676244EF47100092DE3 /* me-too.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = "me-too.m4r"; sourceTree = "<group>"; };
+		ABA02678244EF6C500092DE3 /* surprise-on-a-spring.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = "surprise-on-a-spring.m4r"; sourceTree = "<group>"; };
 		ABC15818244D9FA50001367B /* RNSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = RNSample.entitlements; path = RNSample/RNSample.entitlements; sourceTree = "<group>"; };
 		BB73B5F86AB8FEA20FF36047 /* Pods-RNSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNSample.debug.xcconfig"; path = "Target Support Files/Pods-RNSample/Pods-RNSample.debug.xcconfig"; sourceTree = "<group>"; };
 		D0C5F0D4A888D680F87BDD6C /* Pods-RNSample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNSample-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-RNSample-tvOS/Pods-RNSample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -156,6 +160,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				ABA02675244EF40400092DE3 /* sounds */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -185,6 +190,15 @@
 				2D02E4901E0B4A5D006451C7 /* RNSample-tvOSTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		ABA02675244EF40400092DE3 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				ABA02678244EF6C500092DE3 /* surprise-on-a-spring.m4r */,
+				ABA02676244EF47100092DE3 /* me-too.m4r */,
+			);
+			path = sounds;
 			sourceTree = "<group>";
 		};
 		F0CD27C2E706A405BE7F9D76 /* Pods */ = {
@@ -345,6 +359,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABA02679244EF6C500092DE3 /* surprise-on-a-spring.m4r in Resources */,
+				ABA02677244EF47100092DE3 /* me-too.m4r in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				AB3AEE092449AFE600B58485 /* GoogleService-Info.plist in Resources */,
